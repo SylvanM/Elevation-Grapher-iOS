@@ -1,0 +1,16 @@
+platform :ios, '11.3'
+use_frameworks!
+
+target 'Elevation Grapher iOS' do
+pod 'Alamofire'
+pod 'SwiftyJSON'
+pod 'Charts'
+end
+
+target 'Elevation Grapher iOSTests' do
+
+end
+
+target 'Elevation Grapher iOSUITests' do
+
+end

@@ -1,0 +1,815 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18C21762A9EC49B97DDF04E6 /* Pods_Elevation_Grapher_iOS.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 35117B2F5FCF26876C45ED61 /* Pods_Elevation_Grapher_iOS.framework */; };
+		5F9A43700C835B488BCACCC7 /* Pods_Elevation_Grapher_iOSTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 78DF7FAEDD824451589A9116 /* Pods_Elevation_Grapher_iOSTests.framework */; };
+		AE82273C20A7987D007591F2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82273B20A7987D007591F2 /* AppDelegate.swift */; };
+		AE82273E20A7987D007591F2 /* MapViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82273D20A7987D007591F2 /* MapViewController.swift */; };
+		AE82274020A7987D007591F2 /* GraphViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82273F20A7987D007591F2 /* GraphViewController.swift */; };
+		AE82274320A7987D007591F2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE82274120A7987D007591F2 /* Main.storyboard */; };
+		AE82274520A7987E007591F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = AE82274420A7987E007591F2 /* Assets.xcassets */; };
+		AE82274820A7987E007591F2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = AE82274620A7987E007591F2 /* LaunchScreen.storyboard */; };
+		AE82275320A7987F007591F2 /* Elevation_Grapher_iOSTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82275220A7987F007591F2 /* Elevation_Grapher_iOSTests.swift */; };
+		AE82275E20A7987F007591F2 /* Elevation_Grapher_iOSUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = AE82275D20A7987F007591F2 /* Elevation_Grapher_iOSUITests.swift */; };
+		F75FAB1A97BF8F8D2076C619 /* Pods_Elevation_Grapher_iOSUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1BF07E97B74FB7F553500E58 /* Pods_Elevation_Grapher_iOSUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		AE82274F20A7987F007591F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE82273020A7987D007591F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE82273720A7987D007591F2;
+			remoteInfo = "Elevation Grapher iOS";
+		};
+		AE82275A20A7987F007591F2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = AE82273020A7987D007591F2 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = AE82273720A7987D007591F2;
+			remoteInfo = "Elevation Grapher iOS";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		AE5244612116475B002E7B5C /* Embed Frameworks */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 10;
+			files = (
+			);
+			name = "Embed Frameworks";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1BF07E97B74FB7F553500E58 /* Pods_Elevation_Grapher_iOSUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elevation_Grapher_iOSUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2370DFA486FCC85CD9DF0095 /* Pods-Elevation Grapher iOSUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elevation Grapher iOSUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elevation Grapher iOSUITests/Pods-Elevation Grapher iOSUITests.release.xcconfig"; sourceTree = "<group>"; };
+		35117B2F5FCF26876C45ED61 /* Pods_Elevation_Grapher_iOS.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elevation_Grapher_iOS.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		566EB1973FCB700871BFE2DC /* Pods-Elevation Grapher iOSTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elevation Grapher iOSTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elevation Grapher iOSTests/Pods-Elevation Grapher iOSTests.release.xcconfig"; sourceTree = "<group>"; };
+		5986BD46ABED8D8BCD218CB8 /* Pods-Elevation Grapher iOSUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elevation Grapher iOSUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elevation Grapher iOSUITests/Pods-Elevation Grapher iOSUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		78DF7FAEDD824451589A9116 /* Pods_Elevation_Grapher_iOSTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_Elevation_Grapher_iOSTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE82273820A7987D007591F2 /* Elevation Grapher iOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Elevation Grapher iOS.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE82273B20A7987D007591F2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		AE82273D20A7987D007591F2 /* MapViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapViewController.swift; sourceTree = "<group>"; };
+		AE82273F20A7987D007591F2 /* GraphViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GraphViewController.swift; sourceTree = "<group>"; };
+		AE82274220A7987D007591F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		AE82274420A7987E007591F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		AE82274720A7987E007591F2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		AE82274920A7987E007591F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE82274E20A7987F007591F2 /* Elevation Grapher iOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elevation Grapher iOSTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE82275220A7987F007591F2 /* Elevation_Grapher_iOSTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevation_Grapher_iOSTests.swift; sourceTree = "<group>"; };
+		AE82275420A7987F007591F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AE82275920A7987F007591F2 /* Elevation Grapher iOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "Elevation Grapher iOSUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AE82275D20A7987F007591F2 /* Elevation_Grapher_iOSUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Elevation_Grapher_iOSUITests.swift; sourceTree = "<group>"; };
+		AE82275F20A7987F007591F2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AEA048CA33786C1B2F2F13A6 /* Pods-Elevation Grapher iOS.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elevation Grapher iOS.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elevation Grapher iOS/Pods-Elevation Grapher iOS.debug.xcconfig"; sourceTree = "<group>"; };
+		BC443CF4CE8D9858612C9F97 /* Pods-Elevation Grapher iOSTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elevation Grapher iOSTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-Elevation Grapher iOSTests/Pods-Elevation Grapher iOSTests.debug.xcconfig"; sourceTree = "<group>"; };
+		D99A47052ABADF1086E08F11 /* Pods-Elevation Grapher iOS.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-Elevation Grapher iOS.release.xcconfig"; path = "Pods/Target Support Files/Pods-Elevation Grapher iOS/Pods-Elevation Grapher iOS.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		AE82273520A7987D007591F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18C21762A9EC49B97DDF04E6 /* Pods_Elevation_Grapher_iOS.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE82274B20A7987F007591F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5F9A43700C835B488BCACCC7 /* Pods_Elevation_Grapher_iOSTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE82275620A7987F007591F2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F75FAB1A97BF8F8D2076C619 /* Pods_Elevation_Grapher_iOSUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		08955B478633B986062ACC93 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				AEA048CA33786C1B2F2F13A6 /* Pods-Elevation Grapher iOS.debug.xcconfig */,
+				D99A47052ABADF1086E08F11 /* Pods-Elevation Grapher iOS.release.xcconfig */,
+				BC443CF4CE8D9858612C9F97 /* Pods-Elevation Grapher iOSTests.debug.xcconfig */,
+				566EB1973FCB700871BFE2DC /* Pods-Elevation Grapher iOSTests.release.xcconfig */,
+				5986BD46ABED8D8BCD218CB8 /* Pods-Elevation Grapher iOSUITests.debug.xcconfig */,
+				2370DFA486FCC85CD9DF0095 /* Pods-Elevation Grapher iOSUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		80B9FFFCD37CD4F23124573C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				35117B2F5FCF26876C45ED61 /* Pods_Elevation_Grapher_iOS.framework */,
+				78DF7FAEDD824451589A9116 /* Pods_Elevation_Grapher_iOSTests.framework */,
+				1BF07E97B74FB7F553500E58 /* Pods_Elevation_Grapher_iOSUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		AE82272F20A7987D007591F2 = {
+			isa = PBXGroup;
+			children = (
+				AE82273A20A7987D007591F2 /* Elevation Grapher iOS */,
+				AE82275120A7987F007591F2 /* Elevation Grapher iOSTests */,
+				AE82275C20A7987F007591F2 /* Elevation Grapher iOSUITests */,
+				AE82273920A7987D007591F2 /* Products */,
+				08955B478633B986062ACC93 /* Pods */,
+				80B9FFFCD37CD4F23124573C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		AE82273920A7987D007591F2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				AE82273820A7987D007591F2 /* Elevation Grapher iOS.app */,
+				AE82274E20A7987F007591F2 /* Elevation Grapher iOSTests.xctest */,
+				AE82275920A7987F007591F2 /* Elevation Grapher iOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		AE82273A20A7987D007591F2 /* Elevation Grapher iOS */ = {
+			isa = PBXGroup;
+			children = (
+				AE82273B20A7987D007591F2 /* AppDelegate.swift */,
+				AE82273D20A7987D007591F2 /* MapViewController.swift */,
+				AE82273F20A7987D007591F2 /* GraphViewController.swift */,
+				AE82274120A7987D007591F2 /* Main.storyboard */,
+				AE82274420A7987E007591F2 /* Assets.xcassets */,
+				AE82274620A7987E007591F2 /* LaunchScreen.storyboard */,
+				AE82274920A7987E007591F2 /* Info.plist */,
+			);
+			path = "Elevation Grapher iOS";
+			sourceTree = "<group>";
+		};
+		AE82275120A7987F007591F2 /* Elevation Grapher iOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				AE82275220A7987F007591F2 /* Elevation_Grapher_iOSTests.swift */,
+				AE82275420A7987F007591F2 /* Info.plist */,
+			);
+			path = "Elevation Grapher iOSTests";
+			sourceTree = "<group>";
+		};
+		AE82275C20A7987F007591F2 /* Elevation Grapher iOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				AE82275D20A7987F007591F2 /* Elevation_Grapher_iOSUITests.swift */,
+				AE82275F20A7987F007591F2 /* Info.plist */,
+			);
+			path = "Elevation Grapher iOSUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		AE82273720A7987D007591F2 /* Elevation Grapher iOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE82276220A7987F007591F2 /* Build configuration list for PBXNativeTarget "Elevation Grapher iOS" */;
+			buildPhases = (
+				72A61F2FE38DA3D1D565709F /* [CP] Check Pods Manifest.lock */,
+				AE82273420A7987D007591F2 /* Sources */,
+				AE82273520A7987D007591F2 /* Frameworks */,
+				AE82273620A7987D007591F2 /* Resources */,
+				A7249E30880A9E3568199A92 /* [CP] Embed Pods Frameworks */,
+				568B8D753F477063A00F0D70 /* [CP] Copy Pods Resources */,
+				AE5244612116475B002E7B5C /* Embed Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Elevation Grapher iOS";
+			productName = "Elevation Grapher iOS";
+			productReference = AE82273820A7987D007591F2 /* Elevation Grapher iOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		AE82274D20A7987F007591F2 /* Elevation Grapher iOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE82276520A7987F007591F2 /* Build configuration list for PBXNativeTarget "Elevation Grapher iOSTests" */;
+			buildPhases = (
+				A440AE7BC2C4157158437BCE /* [CP] Check Pods Manifest.lock */,
+				AE82274A20A7987F007591F2 /* Sources */,
+				AE82274B20A7987F007591F2 /* Frameworks */,
+				AE82274C20A7987F007591F2 /* Resources */,
+				96CEB108C68D65C03BD2392F /* [CP] Embed Pods Frameworks */,
+				A004086113AA3A79769C3BDB /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE82275020A7987F007591F2 /* PBXTargetDependency */,
+			);
+			name = "Elevation Grapher iOSTests";
+			productName = "Elevation Grapher iOSTests";
+			productReference = AE82274E20A7987F007591F2 /* Elevation Grapher iOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		AE82275820A7987F007591F2 /* Elevation Grapher iOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = AE82276820A7987F007591F2 /* Build configuration list for PBXNativeTarget "Elevation Grapher iOSUITests" */;
+			buildPhases = (
+				C71B9C21EFE76C5E8854E8A9 /* [CP] Check Pods Manifest.lock */,
+				AE82275520A7987F007591F2 /* Sources */,
+				AE82275620A7987F007591F2 /* Frameworks */,
+				AE82275720A7987F007591F2 /* Resources */,
+				CDA4C9E1F757A20A4887FE50 /* [CP] Embed Pods Frameworks */,
+				FF7D996AB75DBE709D121688 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				AE82275B20A7987F007591F2 /* PBXTargetDependency */,
+			);
+			name = "Elevation Grapher iOSUITests";
+			productName = "Elevation Grapher iOSUITests";
+			productReference = AE82275920A7987F007591F2 /* Elevation Grapher iOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		AE82273020A7987D007591F2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Sylvan Martin";
+				TargetAttributes = {
+					AE82273720A7987D007591F2 = {
+						CreatedOnToolsVersion = 9.3;
+					};
+					AE82274D20A7987F007591F2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AE82273720A7987D007591F2;
+					};
+					AE82275820A7987F007591F2 = {
+						CreatedOnToolsVersion = 9.3;
+						TestTargetID = AE82273720A7987D007591F2;
+					};
+				};
+			};
+			buildConfigurationList = AE82273320A7987D007591F2 /* Build configuration list for PBXProject "Elevation Grapher iOS" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = AE82272F20A7987D007591F2;
+			productRefGroup = AE82273920A7987D007591F2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				AE82273720A7987D007591F2 /* Elevation Grapher iOS */,
+				AE82274D20A7987F007591F2 /* Elevation Grapher iOSTests */,
+				AE82275820A7987F007591F2 /* Elevation Grapher iOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		AE82273620A7987D007591F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE82274820A7987E007591F2 /* LaunchScreen.storyboard in Resources */,
+				AE82274520A7987E007591F2 /* Assets.xcassets in Resources */,
+				AE82274320A7987D007591F2 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE82274C20A7987F007591F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE82275720A7987F007591F2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		568B8D753F477063A00F0D70 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elevation Grapher iOS/Pods-Elevation Grapher iOS-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		72A61F2FE38DA3D1D565709F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elevation Grapher iOS-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		96CEB108C68D65C03BD2392F /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elevation Grapher iOSTests/Pods-Elevation Grapher iOSTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A004086113AA3A79769C3BDB /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elevation Grapher iOSTests/Pods-Elevation Grapher iOSTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A440AE7BC2C4157158437BCE /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elevation Grapher iOSTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A7249E30880A9E3568199A92 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-Elevation Grapher iOS/Pods-Elevation Grapher iOS-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/Alamofire/Alamofire.framework",
+				"${BUILT_PRODUCTS_DIR}/Charts/Charts.framework",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Alamofire.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/Charts.framework",
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elevation Grapher iOS/Pods-Elevation Grapher iOS-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71B9C21EFE76C5E8854E8A9 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-Elevation Grapher iOSUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CDA4C9E1F757A20A4887FE50 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elevation Grapher iOSUITests/Pods-Elevation Grapher iOSUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FF7D996AB75DBE709D121688 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-Elevation Grapher iOSUITests/Pods-Elevation Grapher iOSUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		AE82273420A7987D007591F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE82274020A7987D007591F2 /* GraphViewController.swift in Sources */,
+				AE82273C20A7987D007591F2 /* AppDelegate.swift in Sources */,
+				AE82273E20A7987D007591F2 /* MapViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE82274A20A7987F007591F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE82275320A7987F007591F2 /* Elevation_Grapher_iOSTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE82275520A7987F007591F2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE82275E20A7987F007591F2 /* Elevation_Grapher_iOSUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		AE82275020A7987F007591F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE82273720A7987D007591F2 /* Elevation Grapher iOS */;
+			targetProxy = AE82274F20A7987F007591F2 /* PBXContainerItemProxy */;
+		};
+		AE82275B20A7987F007591F2 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = AE82273720A7987D007591F2 /* Elevation Grapher iOS */;
+			targetProxy = AE82275A20A7987F007591F2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		AE82274120A7987D007591F2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE82274220A7987D007591F2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		AE82274620A7987E007591F2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				AE82274720A7987E007591F2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		AE82276020A7987F007591F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		AE82276120A7987F007591F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		AE82276320A7987F007591F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = AEA048CA33786C1B2F2F13A6 /* Pods-Elevation Grapher iOS.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "Elevation Grapher iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Elevation-Grapher-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		AE82276420A7987F007591F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D99A47052ABADF1086E08F11 /* Pods-Elevation Grapher iOS.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "Elevation Grapher iOS/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Elevation-Grapher-iOS";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		AE82276620A7987F007591F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BC443CF4CE8D9858612C9F97 /* Pods-Elevation Grapher iOSTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "Elevation Grapher iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Elevation-Grapher-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elevation Grapher iOS.app/Elevation Grapher iOS";
+			};
+			name = Debug;
+		};
+		AE82276720A7987F007591F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 566EB1973FCB700871BFE2DC /* Pods-Elevation Grapher iOSTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "Elevation Grapher iOSTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Elevation-Grapher-iOSTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Elevation Grapher iOS.app/Elevation Grapher iOS";
+			};
+			name = Release;
+		};
+		AE82276920A7987F007591F2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5986BD46ABED8D8BCD218CB8 /* Pods-Elevation Grapher iOSUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "Elevation Grapher iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Elevation-Grapher-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Elevation Grapher iOS";
+			};
+			name = Debug;
+		};
+		AE82276A20A7987F007591F2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 2370DFA486FCC85CD9DF0095 /* Pods-Elevation Grapher iOSUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = JDSTZ7K2MV;
+				INFOPLIST_FILE = "Elevation Grapher iOSUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "SM.Elevation-Grapher-iOSUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "Elevation Grapher iOS";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		AE82273320A7987D007591F2 /* Build configuration list for PBXProject "Elevation Grapher iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE82276020A7987F007591F2 /* Debug */,
+				AE82276120A7987F007591F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE82276220A7987F007591F2 /* Build configuration list for PBXNativeTarget "Elevation Grapher iOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE82276320A7987F007591F2 /* Debug */,
+				AE82276420A7987F007591F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE82276520A7987F007591F2 /* Build configuration list for PBXNativeTarget "Elevation Grapher iOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE82276620A7987F007591F2 /* Debug */,
+				AE82276720A7987F007591F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		AE82276820A7987F007591F2 /* Build configuration list for PBXNativeTarget "Elevation Grapher iOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				AE82276920A7987F007591F2 /* Debug */,
+				AE82276A20A7987F007591F2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = AE82273020A7987D007591F2 /* Project object */;
+}

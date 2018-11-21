@@ -1,0 +1,6 @@
+framework module Pods_Elevation_Grapher_iOSTests {
+  umbrella header "Pods-Elevation Grapher iOSTests-umbrella.h"
+
+  export *
+  module * { export * }
+}

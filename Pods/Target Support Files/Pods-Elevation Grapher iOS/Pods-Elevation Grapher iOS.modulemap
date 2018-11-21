@@ -1,0 +1,6 @@
+framework module Pods_Elevation_Grapher_iOS {
+  umbrella header "Pods-Elevation Grapher iOS-umbrella.h"
+
+  export *
+  module * { export * }
+}
